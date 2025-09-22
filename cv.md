@@ -1,5 +1,7 @@
 # Curiculum Vitae
 
+<img src="avatar.jpg" class="avatar-img" style="width:250px;"/>
+
 ## Personal Info
   
 **Merab Kopaleishvili**
