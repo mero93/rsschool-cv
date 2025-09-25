@@ -1,6 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --main-bg-gradient: linear-gradient(
+    90deg,
+    rgba(44, 111, 138, 1) 0%,
+    rgba(145, 237, 175, 1) 59%,
+    rgba(82, 158, 109, 1) 92%
+  );
+  --main-shadow-color: rgb(38, 95, 60);
+  --secondary-shadow-color: rgba(38, 95, 60, 0.5);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
   z-index: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background: var(--main-bg-gradient);
+  box-shadow: var(--main-shadow-color) 0px 25px 30px -15px;
+}
+
+h1 {
+  letter-spacing: 1.2rem;
+  font-size: 48px;
+  text-shadow: 5px 5px 10px var(--main-shadow-color);
+}
+
+h1,
+h2 {
+  color: rgb(6, 63, 41);
+}
+
+footer {
+  width: 100%;
+  padding: 0 20px 0 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  justify-items: center;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  min-width: 800px;
+  box-shadow: var(--secondary-shadow-color) 0px 35px 35px -15px;
+  padding: 15px 20px;
+  margin-bottom: 45px;
+  font-size: 20px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.footer-wrapper > span {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+}
+
+.rs-school-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
