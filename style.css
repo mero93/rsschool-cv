@@ -167,15 +167,15 @@ pre {
   background-color: rgb(230, 239, 240);
 }
 
+ul {
+  padding-left: 20px;
+  width: 100%;
+}
+
 section {
   width: 100%;
 }
 
 h4 {
   margin-bottom: 6px;
-}
-
-p.skills-list > span {
-  margin-right: 12px;
-  text-decoration: underline;
 }
